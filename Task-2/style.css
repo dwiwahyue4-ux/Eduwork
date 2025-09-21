@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+}
+header {
+    width: auto;
+    padding: 10px;
+    background-color: blue;
+    color: #f1f1f1;
+}
+header h2{
+    margin-left: 5px;
+    display: inline;
+    font-size: 20px;
+}
+li{
+    display: inline;
+    float: inline-end;
+    list-style: none;
+    margin: 5px;
+    font-size: 15px;
+}
+a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.judul-gambar {
+    padding: 30px;
+}
+.judul-gambar table {
+    width: 100%;
+}
+.judul-gambar h1 {
+    font-size: 2em;
+}
+button{
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    text-align: center;
+    background-color: blue;
+    color: #f1f1f1;
+}
+#biodata{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+#biodata div{
+    background-color: #f1f1f1;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+#biodata b{
+    color: blue;
+}
+.portfolio{
+    width: auto;
+}
+#portfolio{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+#portfolio h3{
+    text-align: center;
+}
+#portfolio p{
+    text-align: center;
+}
+footer{
+    width: auto;
+    text-align: center;
+    background-color: blue;
+    color: #f1f1f1;
+    padding: 10px;
+    font-size: 10px;
+}
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: blueviolet;
+    }
+
+    #biodata{
+        grid-template-columns: auto;
+    }
+    #portfolio{
+        grid-template-columns: auto auto;
+    }
+}

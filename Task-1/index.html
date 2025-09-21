@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Biodata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+        }
+
+        header h2{
+            display: inline;
+            float: left;
+        }
+        header li {
+            color: #333;
+            display: inline;
+            float: right;
+            text-align: right;
+            padding: 10px;
+            list-style: none;
+            text-decoration: none;
+        }
+        header a {           
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .judul-gambar {
+            padding: 30px;
+        }
+        .judul-gambar table {
+            width: 100%;
+        }
+        .judul-gambar h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .biodata table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .biodata td {
+            border: 1px solid #333;
+            padding: 20px;
+            text-align: center;
+            width: 33%;
+        }
+        .portfolio table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px ;
+        }
+        .portfolio th, .portfolio td {
+            border: 1px solid #333;
+            padding: 15px;
+            text-align: center;
+        }
+        .portfolio th {
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+  <!-- Section 1: Menu -->
+  <header>
+        <h2>Brand</h2>
+        <li><a href="#home">Header</a></li>
+        <li><a href="#biodata">Biodata</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+  </header>
+  <hr>
+  <!-- Section 2: Judul kiri, gambar kanan -->
+  <section class="judul-gambar" id="home">
+    <table>
+      <tr>
+        <td>
+          <h1>Selamat Datang di Weibsite Saya</h1>
+          <p>Ini adalah contoh header dengan  dua kolom. Kolom sebelah kiri berisi teks seperti ini. </p>
+          <button>Pelajari lebih lanjut</button>
+        </td>
+        <td style="text-align: right;">
+          <img src="https://placehold.co/600x400/png" alt="Foto Profil" width="600px" height="400px" >
+        </td>
+      </tr>
+    </table>
+  </section>
+  <hr>
+  <!-- Section 3: Biodata -->
+  <section class="biodata" id="biodata">
+    <h2 style="text-align:center;">Biodata</h2>
+    <table>
+      <tr>
+        <td>Full Name</td>
+        <td>Education</td>
+        <td>Pekerjaan</td>
+      </tr>
+      <tr>
+        <td>Contact</td>
+        <td>Hobby</td>
+        <td>Alamat</td>
+      </tr>
+    </table>
+  </section>
+  <hr>
+  <!-- Section 4: Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h2 style="text-align:center;">Portfolio</h2>
+    <table>
+        <tr>
+            <td>
+                <img src="https://placehold.co/600x400/png" alt="Gambar" width="200px" height="100px">
+                <h2>Proyek 1</h2>
+                <p>Deskripsi proyek</p>
+            </td>
+            <td>
+                <img src="https://placehold.co/600x400/png" alt="Gambar" width="200px" height="100px">
+                <h2>Proyek 2</h2>
+                <p>Deskripsi proyek</p>
+            </td>
+            <td>
+                <img src="https://placehold.co/600x400/png" alt="Gambar" width="200px" height="100px">
+                <h2>Proyek 3</h2>
+                <p>Deskripsi proyek</p>
+            </td>
+        </tr>
+    </table>
+  </section>
+
+</body>
+</html>
